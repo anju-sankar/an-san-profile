@@ -1,0 +1,308 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* Body Header */
+
+#body-header {
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+
+/* Horizontal Lists */
+
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+
+.horizontal-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu li a {
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+    color: lightgrey;
+    border-bottom: 1px solid black;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Name and Social Icons*/
+
+#name-social-container {
+    margin-top: 20vh;
+}
+
+#my-name {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+
+.social-icons li a i {
+    /*color: red;*/
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+}
+
+
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+/*About Section*/
+
+#about {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#my-image {
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+}
+
+
+#about-para {
+    padding: 10px;
+    width: 70%;
+    text-align: justify;
+    color: grey;
+    line-height: 28px;
+    font-size: 1.1rem;
+    margin: auto;
+}
+
+.text-highlight {
+    color: #2857a4;
+    font-weight: 600;
+}
+
+section:nth-child(2n){
+	background-color:#f0f0f5;    
+}
+
+section{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom :10px;
+}
+
+.mb75px{
+    margin-bottom:75px;
+}
+
+.section-heading span{
+    width:auto;
+    font-weight : 400;
+    padding: 20px 10px 10px;
+    margin: 10px auto;
+
+}
+
+.section-heading span{
+    font-size:40px;
+    color:#2857a4;
+    display:inline-block;
+    padding-top:10px;
+
+}
+
+
+#skill-items{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items:center;
+    width : 50%;
+    margin-bottom :0.5rem;
+}
+
+.skill-progress{
+    border-radius: 0.8rem;
+    width:7rem;
+    height:1.4rem;
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color : lightgrey;
+    margin: 10px 20px 10px 20px;
+}
+
+.skill-progress>div{
+    border-radius: 0.8rem 0rem 0rem 0.8rem;
+}
+
+.eighty-five-percent{
+    width:85%;    
+}
+.forty-percent{
+    width:40%;    
+}
+.thirty-percent{
+    width:30%;    
+}
+.ninety-percent{
+    width:90%;    
+}
+.sixty-percent{
+    width:60%;    
+}
+.seventy-percent{
+    width:70%;    
+}
+
+.mb-blue{
+    background-color:blue;
+}
+.mb-green{
+    background-color:green;
+}
+.mb-orange{
+    background-color:orange;
+}
+.mb-grey{
+    background-color:grey;
+}
+.mb-red{
+    background-color:red;
+}
+.mb-yellow{
+    background-color:yellow;
+}
+.skill-progress span{
+
+    font-size :1.1rem;
+    color:white;
+}
+
+
+#portfolio_items{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items:center;
+}
+
+#portfolio_items img{
+    border: 1px solid blue;
+    width: 25rem;
+    height: 20rem;
+    margin: 20px 20px; 
+}
+
+#contact{
+    background:  linear-gradient(to left, rgb(151, 66, 151), rgb(97, 97, 193));   
+}
+
+#contact h1 span{
+    color:white
+}
+#contact div{
+    color:white
+}
+
+#contact_items{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items:center;    
+}
+
+.underline-input {
+  border: none;
+  border-bottom: 2px solid #fff; /* white underline */
+  outline: none;
+  padding: 5px 0;
+  background: none;
+}
+
+#contact_items>div{
+    width : 30%;
+    font-size:12px;
+    line-height: 26px;
+  
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    /* border: 1px solid #ccc; */ /* Gray border */
+    /* border-radius: 4px; */ /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  } 
+
+  #wexp-container{
+    width:75%;
+    position:relative;
+    border: 1px solid brown;
+  }
+
+ .wexp-item{
+    position : relative;
+    width:30%;
+    height:140px;
+    left:5%;
+    border: 1px solid red;
+ }
+
+ .wexp-item:nth-child(2n){
+    
+    left:60%;
+ }
+
+ #wexp-timeline{
+    position : absolute;
+    width:0px;
+    height : 75%;
+    border : 3px dashed rgb(51, 48, 48);
+ }
+
+ #wexp-indicator{
+    position : sticky;
+    top: 25%;
+    transform:rotate(90deg);
+    border :1px solid blue;
+ }
